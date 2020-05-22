@@ -1,0 +1,52 @@
+
+body{
+  background-color: black;
+}
+#btn1{background-color: aquamarine;
+    color: blueviolet;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: cursive;
+    margin-left: 42%;
+    border-radius: 8px;
+    border-color: darkblue;
+    border-width: medium;
+    outline: none;
+
+}
+#btn1:hover{
+  background-color: blueviolet;
+  color: white;
+}
+/*#main-heading{
+    text-align: center;
+    font-family: cursive;
+    font-size: xxx-large;
+    font-variant-caps: small-caps;
+    color: cyan;
+}*/
+.dice-heading{
+  font-family: cursive;
+    text-align: center;
+    color: powderblue;
+}
+
+.dice-one, .dice-two{
+  display: inline-block;
+}
+/* .dice-one{
+  width: 500px;
+  height: 500px;
+
+}
+.dice-two{
+  width: 500px;
+  height: 500px;
+
+} */
+.dice-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+}
